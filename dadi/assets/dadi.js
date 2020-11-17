@@ -13,6 +13,7 @@ resultPc = Math.floor((Math.random() * elPc.length) + 1);
 console.log(resultUser, resultPc);
 
 //** IN QUESTA FUNZIONE, VADO A CONFRONTARE I RISULTATI OTTENUTI E DI SEGUITO A VISUALIZZARE VINTO, PERSO O PAREGGIO */
+
 if(resultUser > resultPc){
     console.log("YOU WIN!");
 }else if(resultUser === resultPc) {
